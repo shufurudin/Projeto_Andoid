@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+*{
+    background-attachment: fixed;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #84E1AD;
+}
+
+header{
+    /*background-color: #1F6F43;*/
+    padding: 6px;
+    box-shadow: 0px 8px 3px rgba(0, 0, 0, 0.199);
+    margin: 0px;
+    background-image: linear-gradient(180deg, #38C879 -35%, #1F6F43);
+}
+
+header > h1{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.603);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+
+header > h2{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.596);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+nav > a{
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav > a:hover{
+    background-color: rgba(64, 229, 138, 0.5);
+}
+
+main{
+    max-width: 900px;
+    background-color: white;
+    padding: 0px 15px 0px 15px;
+    margin: 0px auto 0px auto;
+    display: flex;
+    box-shadow: 4px 7px 5px rgba(0, 0, 0, 0.322);
+}
+
+article > h1{
+    font-family: 'idroid';
+    color: #1F6F43;
+    font-weight: normal;
+    font-size: 1.3em;
+}
+
+article > h2{
+    font-family: 'idroid';
+    color: #1F6F43;
+    font-weight: normal;
+    font-size: 1.1em;
+    background-image: linear-gradient(to right, #84E1AD -10%, white 85%);
+    padding: 0px 2px 0px 5px;
+}
+
+p{
+    text-align: justify;
+    line-height: 1.6;
+    text-indent: 20px;
+}
+
+
+.destaque{
+    color: #1F6F43;
+    font-weight: bold;
+}
+
+article > p > a{
+    background-color: #84E1AD;
+    text-decoration: none;
+    color: #1F6F43;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.imagem{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div{
+    max-width: 930px;
+    background-color: #1F6F43;
+    display: flex;
+    margin: 0px auto 0px auto;
+    padding: 15px 0px 15px 0px;
+    box-shadow: 4px 7px 5px rgba(0, 0, 0, 0.322);
+}
+
+.video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link::after{
+    content: ' 🔗';
+}
+.link:hover{
+    text-decoration: underline;
+}
+
+h1#extra{
+    display: block;
+}
+
+aside{
+    width: 900px;
+    max-width: 900px;
+    background-color: #84E1AD;
+    margin: 20px auto 20px auto;
+    padding: 0px 0px 20px 0px;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.397);
+}
+
+aside > h1{
+    background-color: #1F6F43;
+    color: white;
+    font-size: 1.3em;
+    margin: 0px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+aside > p{
+    padding: 0px 10px 0px 10px;
+    margin: 15px 0px 0px 0px;
+}
+
+.linha{
+    background-color: #84E1AD;
+    clear: both;
+    padding: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.coluna{
+    background-color: #84E1AD;
+    width: 50%;
+    float: left;
+    border-radius: 5px;
+    padding: 0px;
+    box-shadow: none;
+}
+
+ul{
+    list-style: "✔";
+}
+
+aside > p > a{
+    background-color: #84E1AD;
+    text-decoration: none;
+    color: #1F6F43;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.final{
+    border-radius: 0px 0px 5px 5px;
+    margin: 0px auto 20px auto;
+}
+
+footer > p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: #1F6F43;
+    text-align: center;
+    margin: 0px;
+}
+
+.rodape{
+    font-weight: bold;
+}
