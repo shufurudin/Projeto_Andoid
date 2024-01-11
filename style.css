@@ -5,6 +5,8 @@
     src: url('fontes/idroid.otf') format('opentype');
 }
 
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 *{
     background-attachment: fixed;
 }
@@ -28,7 +30,7 @@ header > h1{
     color: white;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.603);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-weight: 100;
 }
 
