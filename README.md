@@ -1,1 +1,3 @@
-Access the webpage: https://shufurudin.github.io/Projeto_Andoid/
+## Very welcome to my project!
+
+This was my first project learning HTML and CSS with Teacher Guanabara.
